@@ -4,7 +4,7 @@ const DashboardLayout = ({ children }) => {
 	return (
 		<div>
 			<div>
-				<h1>Todos</h1>
+				<h1>Dashboard</h1>
 			</div>
 			<div>
 				<NewTodoForm />
