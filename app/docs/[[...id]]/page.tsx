@@ -2,14 +2,9 @@ interface ParamSchema {
 	params: {
 		id: string;
 	};
-	searchParams: {
-		[key: string]: string | string[] | undefined;
-	};
 }
 
-const DocsIdPage = ({ params, searchParams }: ParamSchema) => {
-	console.log(searchParams);
-
+const DocsIdPage = ({ params }: ParamSchema) => {
 	return (
 		<div>
 			<h1>{params?.id}</h1>
